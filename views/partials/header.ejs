@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link rel='stylesheet' href='/stylesheets/style.css' />
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title><%= name %></title>
-  </head>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet' href='/stylesheets/materialize.css' />
+  <link rel='stylesheet' href='/stylesheets/materialize.min.css' />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+    <%= name %>
+  </title>
+</head>
+
+<body>
+
   <nav>
-   <div>
-     <a href="/">Home</a>
-     <ul>
-       <li><a href="/about-me">About Me</a></li>
-       <li><a href="/projects">Projects</a></li>
-       <li><a href="/services">Services</a></li>
-       <li><a href="/contact-me">Contact Me</a></li>
-     </ul>
-   </div>
- </nav>
-  <body>
+  <div class="nav-wrapper">
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="left hide-on-med-and-down">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about-me" >About Me</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/contact-me">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about-me" >About Me</a></li>
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/services">Services</a></li>
+  <li><a href="/contact-me">Contact Me</a></li>
+</ul>
