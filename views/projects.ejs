@@ -46,39 +46,47 @@ Framework: materializecss.com
   <!-- END PROJECTS GRID -->
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
   <script>
+  //Vue object with all progects
     var project = new Vue({
       el: '#project',
       data: {
         projects: [{
-            name: 'Learn JavaScript',
-            text: 'this is a simple text',
-            image: '/images/computer.jpg',
-            href: ''
+            name: 'Bookshelf ASP.NET App',
+            text: 'This is an example of ASP.NET MVC 5, SQL Server, Entity Framework, and Twitter Bootstrap. User can register, using email or account in Microsoft, Google or Facebook. User can browse different books, edit information, add or delete books. Also there are an information about authors. Admin user can manage other users - add, update or delete personal information.',
+            image: '/images/projects/bookshelf.jpg',
+            href: 'https://assignment2-200335788.azurewebsites.net'
           },
           {
-            name: 'Learn JavaScript',
-            text: 'this is a simple text',
-            image: '/images/computer.jpg',
-            href: ''
+            name: 'CMS using PHP',
+            text: 'This is an example of CMS on simple PHP, MySQL, and Twitter Bootstrap. User can register, create, update or delete page.',
+            image: '/images/projects/cms.jpeg',
+            href: 'https://comp1006-assignment2.herokuapp.com/index.php'
           },
           {
-            name: 'Learn JavaScript',
-            text: 'this is a simple text',
-            image: '/images/computer.jpg',
-            href: ''
+            name: 'Mary Ventrella Counselling',
+            text: 'This is a web-site that I and my friend developed during my first semester at Georgian College. The site is developed on HTML and CSS technologies but now I am updating it, using PHP, JavaScript, and Bootstrap. This is a real working site for a teacher in Georgian College.',
+            image: '/images/projects/ventrella.jpg',
+            href: 'http://maryventrellacounselling.ca/'
           },
           {
-            name: 'Learn JavaScript',
-            text: 'this is a simple text',
-            image: '/images/computer.jpg',
-            href: ''
+            name: 'Loscut',
+            text: 'This is a website for the client on Wordpress and MySQL. I wrote the theme from the beginning. The website is currently in progress and the content will be there soon.',
+            image: '/images/projects/loscut.jpg',
+            href: 'http://www.loscut.com.ua/'
           },
           {
-            name: 'Learn JavaScript',
-            text: 'this is a simple text',
-            image: '/images/computer.jpg',
-            href: ''
+            name: 'Book store Java App',
+            text: 'This is a desctop application on Java and MySQL about selling books. User can register to the application and see, which books are avaliable at this moment. Manager can sell or add books to the database. Admin also has an access to users database - they can add, update or delete user, set managers.',
+            image: '/images/projects/bookstore.jpg',
+            href: 'https://github.com/ya-ya-it/comp1011-assignment1'
+          },
+          {
+            name: 'Portfolio',
+            text: 'This is my Personal Portfolio Website. This application uses Express.js, EJS templating engine, Materialize Framework, Vue,js and will use MongoDB a little bit later.',
+            image: '/images/projects/portfolio.jpg',
+            href: 'https://dariadavydenko.herokuapp.com/'
           }
         ]
       }

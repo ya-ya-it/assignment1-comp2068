@@ -73,3 +73,8 @@ nav ul a {
 #project {
   margin: 20px;
 }
+
+.activator {
+  max-height: 200px;
+}
+/* END PROJECT GRID */
