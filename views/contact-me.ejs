@@ -11,14 +11,40 @@ Framework: materializecss.com
 
 <% include partials/header  %>
 
-<!-- MAIN BANNER -->
-<div class="banner">
-  <img src="/images/contact.jpg" alt="Services">
-  <h1 class="header center banner-text "><%= name %></h1>
-</div>
-<!-- END MAIN BANNER -->
+  <!-- MAIN BANNER -->
+  <div class="banner">
+    <img src="/images/contact.jpg" alt="Services">
+    <h1 class="header center banner-text "><%= name %></h1>
+  </div>
+  <!-- END MAIN BANNER -->
 
 
 
+  <div class="container">
+    <h3>Contact me</h3>
+    <p>If you want to ask something or have an interesting challange for me do not hesitate to contact me</p>
 
-<% include partials/footer  %>
+    <div class="contact-container">
+      <form method="POST" action="https://formspree.io/dariadavydenko98@gmail.com">
+        <div class="input-field col s12">
+          <input id="name" type="text" class="validate" name="name" required>
+          <label for="name">Name*</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" name="email" required>
+          <label for="email">Email*</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="phone" type="tel" class="validate" name="phone">
+          <label for="email">Phone</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="questions" class="materialize-textarea" name="questions"></textarea>
+          <label for="questions">How can I help you?</label>
+        </div>
+        <button type="submit" class="waves-effect waves-light btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <% include partials/footer  %>
