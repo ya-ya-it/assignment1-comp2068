@@ -1,3 +1,15 @@
+/**
+* Project name: Assignment 1: Express Portfolio Site
+* File name: style.css
+* Author's name: Daria Davydenko
+* Web-site: https://dariadavydenko.herokuapp.com/
+* File description: This is a stylesheet with the custom css.
+* Pictures were taken from www.pexels.com
+* Framework: materializecss.com
+*/
+
+/* NAVBAR */
+
 nav {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: none;
@@ -5,5 +17,52 @@ nav {
 }
 
 nav ul a {
-  color: #000000;
+  color: #444444;
 }
+
+.sidenav-trigger {
+  color: #444444;
+}
+
+.active {
+  border-bottom: 2px solid #444444;
+}
+/* END NAVBAR */
+
+/* MAIN BANNER */
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 50%;
+  max-width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #444444;
+}
+
+.home-text {
+  position: absolute;
+  top: 35%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  color: #444444;
+}
+
+.home-text p {
+  font-size: 20px;
+}
+
+/* END MAIN BANNER */

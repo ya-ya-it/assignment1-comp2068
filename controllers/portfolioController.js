@@ -1,3 +1,14 @@
+/**
+* Project name: Assignment 1: Express Portfolio Site
+* File name: portfolioController.js
+* Author's name: Daria Davydenko
+* Web-site: https://dariadavydenko.herokuapp.com/
+* File description: This is a controller file with the functions to send information to the page.
+* Pictures were taken from www.pexels.com
+* Framework: materializecss.com
+*/
+
+
 exports.index = (req, res, next) => {
   res.render('index', {
     name: 'Home',

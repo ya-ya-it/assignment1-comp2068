@@ -1,3 +1,13 @@
+<!--
+Project name: Assignment 1: Express Portfolio Site
+File name: header.ejs
+Author's name: Daria Davydenko
+Web-site: https://dariadavydenko.herokuapp.com/
+File description: This is a partial file that contain header and navbar for each page.
+Pictures were taken from www.pexels.com
+Framework: materializecss.com
+-->
+
 <!DOCTYPE html>
 <html>
 
@@ -17,19 +27,22 @@
 
 <body>
 
+<!-- NAVBAR -->
   <nav>
   <div class="nav-wrapper">
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="left hide-on-med-and-down">
-      <li><a href="/">Home</a></li>
-      <li><a href="/about-me" >About Me</a></li>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/services">Services</a></li>
-      <li><a href="/contact-me">Contact Me</a></li>
+      <li><a href="/" class="<%= isActive === 'home' ? 'active' : '' %>">Home</a></li>
+      <li><a href="/about-me" class="<%= isActive === 'about' ? 'active' : '' %>">About Me</a></li>
+      <li><a href="/projects" class="<%= isActive === 'projects' ? 'active' : '' %>">Projects</a></li>
+      <li><a href="/services" class="<%= isActive === 'services' ? 'active' : '' %>">Services</a></li>
+      <li><a href="/contact-me" class="<%= isActive === 'contact' ? 'active' : '' %>">Contact Me</a></li>
     </ul>
   </div>
 </nav>
+<!-- END NAVBAR -->
 
+<!-- MOBILE NAVBAR -->
 <ul class="sidenav" id="mobile-demo">
   <li><a href="/">Home</a></li>
   <li><a href="/about-me" >About Me</a></li>
@@ -37,3 +50,4 @@
   <li><a href="/services">Services</a></li>
   <li><a href="/contact-me">Contact Me</a></li>
 </ul>
+<!-- END MOBILE NAVBAR -->
