@@ -78,3 +78,17 @@ nav ul a {
   max-height: 200px;
 }
 /* END PROJECT GRID */
+
+/* FOOTER */
+.page-footer{
+  background-color: #444444;
+}
+.footer {
+  padding: 10px;
+}
+
+.footer a {
+  color: #aaaaaa;
+}
+
+/* END FOOTER */
