@@ -11,11 +11,51 @@ Framework: materializecss.com
 
 <% include partials/header  %>
 
-<!-- MAIN BANNER -->
-<div class="banner">
-  <img src="/images/services.jpg" alt="Services">
-  <h1 class="header center banner-text "><%= name %></h1>
-</div>
-<!-- END MAIN BANNER -->
+  <!-- MAIN BANNER -->
+  <div class="banner">
+    <img src="/images/services.jpg" alt="Services">
+    <h1 class="header center banner-text "><%= name %></h1>
+  </div>
+  <!-- END MAIN BANNER -->
 
-<% include partials/footer  %>
+  <!-- SERVICES -->
+  <div class="service-container">
+    <div class="row">
+
+        <div class="col s12 m4 center-align">
+          <a class="btn-floating btn-large"><i class="material-icons">face</i></a>
+          <h3>Personal skills</h3>
+          <ul>
+            <li>Quick learner</li>
+            <li>Team worker</li>
+            <li>Fast thinker</li>
+            <li>Languages: fluent in English, Russian and Ukrainian, learning French</li>
+          </ul>
+        </div>
+        <div class="col s12 m4 center-align">
+          <a class="btn-floating btn-large"><i class="material-icons">cloud</i></a>
+          <h3>Web Development</h3>
+          <ul>
+            <li>PHP/Symfony</li>
+            <li>Wordpress, Drupal</li>
+            <li>ASP.NET</li>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </div>
+        <div class="col s12 m4 center-align">
+          <a class="btn-floating btn-large"><i class="material-icons">desktop_mac</i></a>
+          <h3>Programming</h3>
+          <ul>
+            <li>Java</li>
+            <li>Visual C#</li>
+            <li>MVC-model</li>
+            <li>Relational databases: MySQL, MSSQL</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  <!-- END SERVICES -->
+  <% include partials/footer  %>

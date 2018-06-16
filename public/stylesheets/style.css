@@ -65,6 +65,10 @@ nav ul a {
 }
 
 .home-text p {
+  font-size: 22px;
+}
+
+.home-text a {
   font-size: 25px;
 }
 /* END MAIN BANNER */
@@ -91,4 +95,22 @@ nav ul a {
   color: #aaaaaa;
 }
 
+.logo {
+  max-height: 30px;
+}
 /* END FOOTER */
+
+/* ABOUT */
+.about-photo {
+  max-height: 400px;
+  margin-top: 20px;
+}
+/* END ANOUT */
+
+/* SERVICES */
+
+.service-container {
+  margin: 60px 40px;
+}
+
+/* END SERVICES */
