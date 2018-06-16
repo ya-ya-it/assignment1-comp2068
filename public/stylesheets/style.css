@@ -14,6 +14,8 @@ nav {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: none;
   box-shadow: none;
+  position: absolute;
+  z-index: 100;
 }
 
 nav ul a {
@@ -35,6 +37,7 @@ nav ul a {
   position: relative;
   text-align: center;
   color: white;
+  z-index: 1;
 }
 
 .banner img {
@@ -55,14 +58,18 @@ nav ul a {
 
 .home-text {
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 78%;
   transform: translate(-50%, -50%);
   color: #444444;
 }
 
 .home-text p {
-  font-size: 20px;
+  font-size: 25px;
 }
-
 /* END MAIN BANNER */
+
+/* PROJECTS GRID */
+#project {
+  margin: 20px;
+}
