@@ -82,6 +82,12 @@ nav ul a {
 .activator {
   max-height: 260px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .activator {
+      max-height: 400px;
+    }
+}
 /* END PROJECT GRID */
 
 
