@@ -18,12 +18,12 @@ nav {
   z-index: 100;
 }
 
-a {
-  color: #4976bd;
+nav ul a {
+  color: #444444!important;
 }
 
-nav ul a {
-  color: #444444;
+a {
+  color: #4976bd!important;
 }
 
 .sidenav-trigger {
@@ -172,7 +172,7 @@ nav ul a {
       max-height: 450px;
     }
     .row-project {
-      margin: 0 100px;
+      margin: 0 100px!important;
     }
 }
 

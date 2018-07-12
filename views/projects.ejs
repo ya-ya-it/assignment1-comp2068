@@ -35,7 +35,8 @@ Framework: materializecss.com
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">{{ project.name }}<i class="material-icons right">close</i></span>
-            <p>{{ project.text }}</p>
+            <p>{{ project.text }}<br>
+            <a v-bind:href="project.href">View</a></p>
           </div>
         </div>
 
