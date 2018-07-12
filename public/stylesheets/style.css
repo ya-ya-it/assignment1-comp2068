@@ -18,6 +18,10 @@ nav {
   z-index: 100;
 }
 
+a {
+  color: #4976bd;
+}
+
 nav ul a {
   color: #444444;
 }
@@ -81,15 +85,6 @@ nav ul a {
 
 .activator {
   max-height: 260px;
-}
-
-@media only screen and (min-width: 1441px) {
-    .activator {
-      max-height: 450px;
-    }
-    .row-project {
-      margin: 0 100px;
-    }
 }
 /* END PROJECT GRID */
 
@@ -169,4 +164,39 @@ nav ul a {
 
 .about-container {
   margin-bottom: 35px;
+}
+
+
+@media only screen and (min-width: 1441px) {
+    .activator {
+      max-height: 450px;
+    }
+    .row-project {
+      margin: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .home-text {
+    top: 65%;
+  }
+  .banner-text{
+    left: 60%;
+  }
+  .banner-text-projects {
+    left: 50%!important;
+  }
+  .banner-text-services {
+    left: 40%!important;
+  }
+
+  .skills-card {
+    margin-bottom: 20px;
+  }
 }
