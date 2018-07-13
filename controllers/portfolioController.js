@@ -11,35 +11,35 @@
 
 exports.index = (req, res, next) => {
   res.render('index', {
-    name: 'Home',
+    name: 'Home | Daria Davydenko',
     isActive: 'home',
   });
 };
 
 exports.about = (req, res, next) => {
   res.render('about-me', {
-    name: 'About Me',
+    name: 'About Me | Daria Davydenko',
     isActive: 'about',
   });
 };
 
 exports.projects = (req, res, next) => {
   res.render('projects', {
-    name: 'Projects',
+    name: 'Projects | Daria Davydenko',
     isActive: 'projects',
   });
 };
 
 exports.services = (req, res, next) => {
   res.render('services', {
-    name: 'Services',
+    name: 'Services | Daria Davydenko',
     isActive: 'services',
   });
 };
 
 exports.contact = (req, res, next) => {
   res.render('contact-me', {
-    name: 'Contact Me',
+    name: 'Contact Me | Daria Davydenko',
     isActive: 'contact',
   });
 };

@@ -26,8 +26,8 @@ a {
   color: #4976bd!important;
 }
 
-.sidenav-trigger {
-  color: #444444;
+.sidenav-trigger, .sidenav a {
+  color: #444444!important;
 }
 
 .active {
@@ -201,5 +201,8 @@ a {
 
   .skills-card {
     margin-bottom: 20px;
+  }
+  .about-photo {
+    margin-top: 15px;
   }
 }
